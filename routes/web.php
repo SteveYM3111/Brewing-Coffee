@@ -4,6 +4,11 @@ use Illuminate\Support\Facades\Route;
 Use App\Http\Controllers\HomeController;
 Use App\Http\Controllers\webController;
 Use App\Http\Controllers\loginAdmin;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\loginController;
+use App\Http\Controllers\loginUser;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\payment;
 
 // Route::get('/', function (){
 //     return view ('welcome');
@@ -37,3 +42,14 @@ Route::get('/product',[webController::class, 'product']);
 Route::get('/login', [webController::class, 'login']);
 Route::get('/lokasi', [webController::class, 'lokasi']);
 Route::get('/loginAdmin', [loginAdmin::class, 'loginAdmin']);
+Route::get('/home',[webController::class, 'home']);
+Route::get('/about',[webController::class, 'about']);
+Route::get('/register',[webController::class, 'register']);
+Route::get('/payment',[webController::class, 'payment']);
+
+Route::get('layout/admin',[AdminController::class, 'mainAdmin']);
+Route::get('admin/DaftarAdmin', [AdminController::class, 'DaftarAdmin']);
+
+
+Route::get('admin/Barang', [OrderController::class, 'order'])->name('order.index');
+Route::post('/order', [OrderController::class, 'create'])->name('order.create');

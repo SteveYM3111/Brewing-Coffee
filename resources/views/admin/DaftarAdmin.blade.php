@@ -1,6 +1,6 @@
 @extends('layout.mainAdmin')
 @section('content')
-<section class="container px-4 mx-auto">
+<section class="container px-4 mx-auto">  
   <div class="container px-7 mx-auto mt-9">
     <h1 class="text-2xl font-bold mb-6">Daftar Admin</h1>
   </div>

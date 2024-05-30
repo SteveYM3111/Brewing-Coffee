@@ -9,6 +9,7 @@ use App\Http\Controllers\loginController;
 use App\Http\Controllers\loginUser;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\payment;
+use App\Http\Controllers\Profile;
 
 // Route::get('/', function (){
 //     return view ('welcome');
@@ -47,8 +48,12 @@ Route::get('/about',[webController::class, 'about']);
 Route::get('/register',[webController::class, 'register']);
 Route::get('/payment',[webController::class, 'payment']);
 
+
 Route::get('layout/admin',[AdminController::class, 'mainAdmin']);
 Route::get('admin/DaftarAdmin', [AdminController::class, 'DaftarAdmin']);
+Route::get('admin/Profile',[AdminController::class, 'Profile']);
+Route::get('admin/Dashboard',[AdminController::class, 'Dashboard']);
+Route::get('admin/DataCustomer',[AdminController::class, 'DataCustomer']);
 
 
 Route::get('admin/Barang', [OrderController::class, 'order'])->name('order.index');

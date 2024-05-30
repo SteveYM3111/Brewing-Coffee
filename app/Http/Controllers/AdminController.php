@@ -53,4 +53,18 @@ class AdminController extends Controller
             "title" => "Review"
 ]);
 }
+
+  public function Profile()
+    {
+        return view('admin/Profile',[
+            "title" => "Profile"
+]);
+}
+
+public function Dashboard()
+    {
+        return view('admin/Dashboard',[
+            "title" => "Dashboard"
+]);
+}
 }

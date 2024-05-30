@@ -12,57 +12,43 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
-<!-- Header -->
-
-<body>
-    <div class="flex h-screen bg-gray-100">
-        <!-- Sidebar -->
-        <div class="flex flex-col w-64 bg-base-300 border-r text-netral">
-            <div class="flex items-center justify-center h-16">
-                <span class="text-lg font-semibold"><img src="/image/Logo.png" class="w-20 h-20" alt=""></span>
-            </div>
-            <div class="font-bold divider mb-2 text-green-600 ">VOIDCOFFEE</div>
-
-            <!-- Tambahkan item-item sidebar di sini -->
-            <ul class="menu w-full rounded-box">
-                <li><a><i class="fas fa-tachometer-alt mr-2"></i>Dashboard</a></li>
-                <li><a href="/admin/DaftarAdmin"><i class="fas fa-user-shield mr-2"></i>Data Admin</a></li>
-                <li><a href="/admin/DataCustomer"><i class="fas fa-users mr-2"></i>Data Customer</a></li>
-                <li><a href="/admin/Barang"><i class="fa-solid fa-boxes-stacked mr-2"></i>Data Barang</a></li>
-            </ul>
-
-            <div>
-    </div>
+<body class="bg-gray-100">
+    <div class="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white flex flex-col">
+        <div class="flex items-center justify-center h-16">
+            <img src="/image/Logo.png" class="w-20 h-20" alt="Logo">
         </div>
-        <!-- Navbar -->
-        <div class="flex-1 bg-base-co">
-            <div class="navbar bg-green-600">
-                <div class="flex-1">
-                    <!-- Tambahkan konten navbar di sini -->
-                </div>
-                <div class="flex-none">
-                    <div class="dropdown dropdown-end">
-                        <!-- Isi dropdown navbar di sini -->
-                    </div>
-                    <div class="dropdown dropdown-end mx-10">
-                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-                            <div class="w-10 rounded-full">
-                                <img alt="Tailwind CSS Navbar component" src="/image/gojoadmin.png" />
-                            </div>
+        <div class="font-bold text-green-600 text-center mb-2">VOIDCOFFEE</div>
+        <ul class="menu p-4 w-full">
+            <li class="mb-2"><a href="/admin/Dashboard" class="flex items-center"><i class="fas fa-tachometer-alt mr-2"></i>Dashboard</a></li>
+            <li class="mb-2"><a href="/admin/DaftarAdmin" class="flex items-center"><i class="fas fa-user-shield mr-2"></i>Data Admin</a></li>
+            <li class="mb-2"><a href="/admin/DataCustomer" class="flex items-center"><i class="fas fa-users mr-2"></i>Data Customer</a></li>
+            <li class="mb-2"><a href="/admin/Barang" class="flex items-center"><i class="fa-solid fa-boxes-stacked mr-2"></i>Data Barang</a></li>
+        </ul>
+    </div>
+
+    <div class="ml-64 flex-1">
+        <div class="fixed top-0 right-0 left-64 bg-green-600 flex items-center justify-between h-16 px-4 z-10">
+            <div class="text-lg font-semibold">Navbar</div>
+            <div class="flex items-center">
+                <div class="dropdown dropdown-end mx-10">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                        <div class="w-10 rounded-full">
+                            <img alt="Admin avatar" src="/image/gojoadmin.png" />
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Profile</a></li>
-                            <li><a>Settings</a></li>
-                            <li><a>Logout</a></li>
-                        </ul>
                     </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="Profile">Profile</a></li>
+                        <li><a href="Profile">Settings</a></li>
+                        <li><a href="Profile">Logout</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+
+        <div class="pt-16 px-4">
             @yield('content')
         </div>
     </div>
-
-
 </body>
 
 </html>

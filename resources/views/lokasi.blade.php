@@ -107,13 +107,13 @@
     </div>
     <!-- Gambar kopi besar di sebelah kanan teks -->
     <div class="w-1/2">
-    <a href="https://www.google.com/maps/place/Jl.+Parkit+6+No.6,+Belian,+Kec.+Batam+Kota,+Kota+Batam,+Kepulauan+Riau+29433/@1.1048832,104.080021,19z/data=!3m1!4b1!4m6!3m5!1s0x31d988b439bb3aeb:0x8cbd765e46568541!8m2!3d1.1048832!4d104.0806647!16s%2Fg%2F11scjlsm82?entry=ttu"></a>    <img src="{{ asset('image/gambarlayar.jpg') }}" alt="Gambar Kopi Besar" class="w-full h-auto">
+        <img src="{{ asset('image/gambarlayar.png') }}" alt="Gambar Kopi Besar" class="w-full h-auto">
     </div>
 </div>
 
 <!-- Teks "Our Location" -->
-<div class="our-location">
-    <p>Our Location</p>
+<div class="address">
+    <p class="">Our Location</p>
 </div>
 <!-- Alamat kami -->
 <div class="address">
@@ -121,7 +121,7 @@
 </div>
 <!-- Tempat gambar -->
 <div class="location-image text-center">
-    <img src="{{ asset('image/lokasi.jpg') }}" alt="Lokasi" class="w-1/2 mx-auto mt-4">
+   <a href="https://www.google.com/maps/place/Cluster+Parkit+KDA/@1.1047184,104.0798226,18z/data=!4m10!1m2!2m1!1sKDA+Jln.+Parkit+6+no.6!3m6!1s0x31d988b43f8664a5:0xf255670bf22c7df6!8m2!3d1.1047184!4d104.0811101!15sChZLREEgSmxuLiBQYXJraXQgNiBuby42WhciFWtkYSBqbG4gcGFya2l0IDYgbm8gNpIBD2hvdXNpbmdfY29tcGxleJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSeFoySjZWRXBCRUFF4AEA!16s%2Fg%2F11c1qdqwj_?entry=ttu"> <img src="{{ asset('image/lokasi.jpg') }}" alt="Lokasi" class="w-1/2 mx-auto mt-4 mb-4"></a>
 </div>
 <footer class="footer p-10 bg-neutral text-neutral-content">
   <aside>

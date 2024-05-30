@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  @vite('resources/css/app.css')
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Add CDN for testing -->
   <style>
     .container {
       display: flex;
@@ -35,15 +35,14 @@
           </div>
           <input type="text" placeholder="Password" class="input input-bordered w-full max-w-xs" />
         </label>
-            <div class="form-control">
-                <label class="label cursor-pointer">
-                    <span class="label-text">Remember me</span> 
-                    <input type="checkbox" class="toggle" checked />
-                 </label>
-            </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">Remember me</span>
+            <input type="checkbox" class="toggle" checked />
+          </label>
+        </div>
         <div class="card-actions justify-start">
           <button class="btn btn-primary">Login</button>
-          
         </div>
       </div>
     </div>

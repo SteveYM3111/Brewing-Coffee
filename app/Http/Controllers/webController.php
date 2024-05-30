@@ -34,4 +34,14 @@ class webController extends Controller
     {
     return view('loginAdmin');
     }
+
+    public function about()
+    {
+    return view('about');
+    
+    }
+    public function payment()
+    {
+    return view('payment');
+    }
 }

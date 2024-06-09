@@ -44,4 +44,9 @@ class webController extends Controller
     {
     return view('payment');
     }
+    
+    public function home2()
+    {
+    return view('home2');
+    }
 }

@@ -66,5 +66,12 @@ public function Dashboard()
         return view('admin/Dashboard',[
             "title" => "Dashboard"
 ]);
+
+}
+public function Dashboard2()
+    {
+        return view('admin/Dashboard2',[
+            "title" => "Dashboard2"
+]);
 }
 }

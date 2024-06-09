@@ -53,7 +53,7 @@
                     <div class="ml-5">
                         <a href="/home" class="mr-5">Beranda</a>
                         <a href="/product" class="mr-5">Produk</a>
-                        <a href="#" class="mr-5">Tentang</a>
+                        <a href="/about" class="mr-5">Tentang</a>
                         <a href="/lokasi" class="mr-5">Lokasi</a>
                     </div>
                 </div>

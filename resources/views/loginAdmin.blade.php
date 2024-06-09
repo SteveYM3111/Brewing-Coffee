@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Add CDN for testing -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
   <style>
     .container {
       display: flex;
@@ -25,7 +27,7 @@
     <div class="card lg:card-side bg-white shadow-xl w-3/12 h-6/12"> <!-- Changed bg-base-100 to bg-white -->
       <div class="card-body">
         <label class="form-control w-full max-w-xs h-120">
-          <p class="text-xl justify-end">Welcome Back Admin!</p>
+          <p class="text-xl justify-end">Welcome Back!</p>
           <div class="label">
             <span class="label-text text-xl">Username</span>
           </div>
@@ -42,7 +44,7 @@
           </label>
         </div>
         <div class="card-actions justify-start">
-          <button class="btn btn-primary">Login</button>
+          <a href="/home2"><button class="btn btn-primary">Login</button></a>
         </div>
       </div>
     </div>

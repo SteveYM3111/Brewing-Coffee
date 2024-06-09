@@ -59,9 +59,9 @@
                     <span class="text-xl font-semibold">Logo</span>
                     <div class="ml-5">
                         <a href="/home" class="mr-5">Beranda</a>
-                        <a href="/loginAdmin" class="mr-5">Produk</a>
-                        <a href="/loginAdmin" class="mr-5">Tentang</a>
-                        <a href="/loginAdmin" class="mr-5">Lokasi</a>
+                        <a href="/product" class="mr-5">Produk</a>
+                        <a href="/about" class="mr-5">Tentang</a>
+                        <a href="/lokasi" class="mr-5">Lokasi</a>
                         <a href="layout/admin" class="mr-5">admin</a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
             <p class="explore-text mb-5">Citra Rasa Terbaik</p>
             <p class="additional-text mb-2">Dibuat dari biji kopi pilihan untuk pengalaman</p>
             <p class="additional-text mb-2">meminum kopi terbaik setiap hari</p>
-            <a href="/login" class="inline-block bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md sign-in-btn">Sign In</a>
+
         </div>
         <div class="w-1/2">
             <img src="{{ asset('image/gambarlayar.png') }}" alt="Gambar Kopi Besar" class="w-full h-auto">

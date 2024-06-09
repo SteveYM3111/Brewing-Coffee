@@ -12,10 +12,15 @@
         <div class="bg-gray-50 flex rounded-2xl shadow-lg max-w-3xl">
             <!--form-->
             <div class="w-1/2 p-5">
-                <h2 class="font-bold text-2xl">Register</h2>
-                <p class="text-sm mt-4">Jika kamu seorang member, lebih mudah untuk login</p>
+                <h2 class="font-bold text-2xl text-center">Register</h2>
+                <p class="text-sm mt-4 text-center">Jika kamu seorang member, lebih mudah untuk login</p>
                 <form action="" class="flex flex-col">
+                    
                     <input type="text" name="email" placeholder="Email" class="block w-3/4 p-2 border border-gray-300 rounded mt-4 mx-auto">
+                    <div class="mx-auto relative w-3/4 mt-4">
+                    <input id="name" type="name" name="name" placeholder="Name" class="block w-full p-2 border border-gray-300 rounded pr-10"></div>
+                    <div class="mx-auto relative w-3/4 mt-4">
+                    <input id="number" type="decimal" name="number" placeholder="Number" class="block w-full p-2 border border-gray-300 rounded pr-10"></div>
                     <div class="relative w-3/4 mx-auto mt-4">
                         <input id="password" type="password" name="password" placeholder="Password" class="block w-full p-2 border border-gray-300 rounded pr-10">
                         <svg id="togglePassword" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
@@ -37,12 +42,15 @@
                         </svg>
                         Login dengan Google
                     </button>
+                        <a href="/loginAdmin"><div class="font-bold text-center mt-3">
+                            Sudah punya akun?
+                        </div></a>
                 </form>
             </div>
 
             <!--image-->
             <div class="sm:block hidden w-1/2 p-5 h-96">
-                <img class="rounded-lg h-full w-full object-cover" src="image/hehehe.jpg" alt="">
+                <img class="rounded-lg object-cover mt-12" src="image/hehehe.jpg" alt="">
             </div>
         </div>
     </section>

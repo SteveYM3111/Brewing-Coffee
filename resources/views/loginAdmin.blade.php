@@ -22,7 +22,7 @@
     }
   </style>
 </head>
-<body>
+<body class="coffee-image">
   <div class="container">
     <div class="card lg:card-side bg-white shadow-xl w-3/12 h-6/12"> <!-- Changed bg-base-100 to bg-white -->
       <div class="card-body">
@@ -48,11 +48,12 @@
         </div>
       </div>
     </div>
-    <div class="coffee-image">
-      <figure>
-        <img src="{{ asset('image/Coffee.svg') }}" alt="Coffee"/>
-      </figure>
-    </div>
+<div class="coffee-image rounded-lg">
+  <figure>
+    <img class="rounded-full w-80 h-80" src="{{ asset('image/Coffee.svg') }}" alt="Coffee"/>
+  </figure>
+</div>
+
   </div>
 </body>
 </html>

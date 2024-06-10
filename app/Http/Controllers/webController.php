@@ -30,6 +30,7 @@ class webController extends Controller
     {
     return view('register');
     }
+    
     public function loginAdmin()
     {
     return view('loginAdmin');

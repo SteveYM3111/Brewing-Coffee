@@ -23,6 +23,7 @@
             <li class="mb-2"><a href="/admin/DaftarAdmin" class="flex items-center"><i class="fas fa-user-shield mr-2"></i>Data Admin</a></li>
             <li class="mb-2"><a href="/admin/DataCustomer" class="flex items-center"><i class="fas fa-users mr-2"></i>Data Customer</a></li>
             <li class="mb-2"><a href="/admin/Barang" class="flex items-center"><i class="fa-solid fa-boxes-stacked mr-2"></i>Data Barang</a></li>
+            <li class="mb-2"><a href="/admin/komen" class="flex items-center"><i class="fa-solid fa-boxes-stacked mr-2"></i>Komentar</a></li>
         </ul>
     </div>
 

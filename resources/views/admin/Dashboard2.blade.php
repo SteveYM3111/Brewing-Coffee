@@ -4,19 +4,21 @@
 
       <!-- Cards -->
         <div class="grid grid-cols-6 gap-6 mb-6 mt-10">
-            <div class="bg-blue-600 text-white p-4 h-16 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Total Sale</h3>
+            <div class="bg-blue-600 text-white p-4 h-32 rounded-lg shadow transform transition duration-500 hover:scale-105 cursor-pointer hover:bg-blue-900">
+            <img class="mx-auto" src="{{ asset('image/flame.svg') }}" alt="Coffee"/>
+                <h3 class="text-xl font-semibold ml-3 mt-4">Total Sale</h3>
             </div>
-            <div class="bg-orange-600 text-white p-4 h-16 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Daily Sale</h3>
+            <div class="bg-orange-600 text-white p-4 h-32 rounded-lg shadow  transform transition duration-500 hover:scale-105 cursor-pointer hover:bg-orange-900">
+            <img class="mx-auto" src="{{ asset('image/Folder-content.svg') }}" alt="Coffee"/>
+                <h3 class="text-xl font-semibold ml-3 mt-4">Daily Sale</h3>
             </div>
-            <div class="bg-green-600 text-white p-4 h-16 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Total Sale</h3>
+            <div class="bg-green-600 text-white p-4 h-32 rounded-lg shadow  transform transition duration-500 hover:scale-105 cursor-pointer hover:bg-green-900">
+            <img class="mx-auto" src="{{ asset('image/Icon.svg') }}" alt="Coffee"/>
+                <h3 class="text-xl font-semibold ml-3 mt-4">Total Sale</h3>
             </div>
-            <div class="bg-green-800 text-white p-4 h-16 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Expenses</h3>
-            </div>
-            <div class="col-span-2 flex justify-end items-end w-full">
+
+
+            <div class="ml-32 col-span-2 flex justify-end items-end w-full">
             <div class="bg-orange-500 text-white p-4 rounded-lg w-full shadow">
                     <h3 class="text-2xl font-bold">$ 9.470</h3>
                         <p class="text-sm">Active Balance</p>
